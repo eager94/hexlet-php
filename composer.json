@@ -1,0 +1,22 @@
+{
+    "name": "eager/hexlet-php",
+    "description": "project one",
+    "type": "project",
+    "autoload": {
+	"files": [
+		"src/Runner.php"
+		]
+		},
+    "require": {
+        "illuminate/collections": "^12.34"
+    },
+	"scripts":{
+ "phpcs": "phpcs"
+		},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+  "scripts": {
+        "phpcs": "phpcs"
+    }
+}
